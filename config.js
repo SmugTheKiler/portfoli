@@ -1,93 +1,98 @@
+
 export default {
   about: {
-    image:
-      "https://cdn.discordapp.com/avatars/726953781903884388/8b007da4226e040487bb1e801bce5626.png?size=2048",
-    name: "Amil Alekberov",
-    job: "UI Designer / Front-end Developer",
-    description:
-      "Hello, I am Amil Alekberov, a self-taught Front-end Developer with more than three years of work experience. Now I live in Baku, Azerbaijan. I am working own on different projects now. I enjoy presenting my projects to people. It makes me happier when people give good feedback about my work.",
+    image: "https://cdn.discordapp.com/attachments/969899330091773992/974777255505043596/smugthekiler.png",
+    name: "SmugTheKiler",
+    job: "Backend Developer",
+    description: `
+    Hey! I am SmugTheKiler - Or Emir. I tought myself on how to program since
+I was about 10, and honestly, its epic. Currently in Georgia, and did this as a part of a competition.. I developed lots of things, and have a lot of people use them, without them evening knowing it was made by me 🥲
+      `,
     socialLinks: [
       {
         name: "Github",
         icon: "fab fa-github",
         color: "gray",
-        to: "https://github.com/thisisroi",
+        to: "https://github.com/SmugTheKiler",
       },
       {
         name: "Discord",
         color: "indigo",
         icon: "fab fa-discord",
-        to: "https://discord.gg/zwVSuN4",
+        to: "https://discord.gg/E35Mq64an9",
       },
       {
-        name: "Dribbble",
+        name: "Youtube",
         color: "pink",
-        icon: "fab fa-dribbble",
-        to: "https://dribbble.com/roidesign",
-      },
+        icon: "fab fa-youtube",
+        to: "https://www.youtube.com/channel/UCbOqnGLxo9t3JRrP1QL7Rkg",
+      }, /*
       {
         name: "Medium",
         color: "purple",
         icon: "fab fa-medium",
-        to: "https://medium.com/@r0i",
-      },
+        to: "https://medium.com/@...",
+      }, */
     ],
   },
   journey: {
-    experience: "3 Years Experience",
-    totalProjects: 10,
-    work: "Full-time",
+    experience: "2+ Years Experience",
+    totalProjects: 4,
+  //  work: "Hobby",
   },
   skills: [
     {
-      name: "React",
-      percent: 75,
-      color: "#1597C4",
+      name: "JavaScript",
+      percent: 85,
+      color: "#384d54"
     },
     {
-      name: "Tailwind",
+      name: "NodeJS",
       percent: 90,
-      color: "#18B0A0",
-    },
-    {
-      name: "Javascript",
-      percent: 80,
       color: "#DDC123",
     },
     {
-      name: "CSS",
-      percent: 95,
-      color: "#583FE5",
+      name: "HTML",
+      percent: 75,
+      color: "#3C873A",
     },
     {
-      name: "HTML",
-      percent: 99,
+      name: "CSS",
+      percent: 45,
       color: "#E58A3F",
     },
     {
-      name: "SCSS",
-      percent: 65,
-      color: "#DB3FE5",
-    },
-    {
-      name: "Vue",
-      percent: 20,
-      color: "#22AD74",
-    },
+      name: "Python",
+      percent: 5,
+      color: "#2b7489"
+    }
   ],
   projects: [
-    // status list: NEW - 1, Coming Soon - 2, Active - 3, Maintenance - 4, It's Over - 5, Closed - 6
+    // Statusliste: NEW - 1, Coming Soon - 2, Active - 3, Maintenance - 4, It's Over - 5, Closed - 6
     {
-      name: "roi-portfolio",
-      description: "An open source portfolio site.",
-      status: 3,
-      to: "https://github.com/thisisroi/roi-portfolio",
+      name: "${Ella}",
+      description: "An awesome Discord bot with over 200 servers, and 180k+ users using it. It helps you with a lot of stuff like moderation, fun, utility, ect.",
+      status: 2,
+      to: "https://discord.com/oauth2/authorize?client_id=743292394237329440&scope=bot&permissions=8"
     },
     {
-      name: "az-covid19.info",
-      description: "Website showing coronavirus statistics of Azerbaijan. (But in Azerbaijan language)",
-      status: 3,
-      to: "https://az-covid19-info.vercel.app/",
-    },    
+      name: "Funy API",
+      description: "A good API template for anyone to use. Has token Generation, registration, settings, multiple endpoints, and more.",
+      status: 2,
+      to: "https://github.com/SmugTheKiler/funy-api"
+    },
+    {
+      name: "${Ella}'s Website'",
+      description: "Find general info on ${Ella} on its website",
+      status: 1,
+      to: "https://ellabot.xyz"
+    },
+    {
+    // {
+    //   name: "",
+    //   description: "",
+    //   status: 1,
+    //   to: "",
+    // },    
   ],
 };
