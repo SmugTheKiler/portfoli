@@ -36,7 +36,7 @@ export default {
     },
     journey: {
       experience: "2+ Years Experience",
-      totalProjects: 4,
+      totalProjects: 3,
       work: "Freelancer",
     },
     skills: [
