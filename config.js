@@ -71,19 +71,19 @@ export default {
       {
         name: "${Ella}",
         description: "An awesome Discord bot with over 200 servers, and 180k+ users using it. It helps you with a lot of stuff like moderation, fun, utility, ect.",
-        status: 6,
+        status: 3,
         to: "https://discord.com/oauth2/authorize?client_id=743292394237329440&scope=bot&permissions=8"
       },
       {
         name: "Funy API",
         description: "A good API template for anyone to use. Has token Generation, registration, settings, multiple endpoints, and more.",
-        status: 5,
+        status: 1,
         to: "https://github.com/SmugTheKiler/funy-api"
       },
       {
         name: "${Ella}'s Website'",
         description: "Find general info on ${Ella} on its website",
-        status: 6,
+        status: 4,
         to: "https://ellabot.xyz"
       },
       //{
@@ -96,11 +96,10 @@ export default {
       //},
   ]
 }; /*
-1 - new
+1 - New
 2 - coming soon
 3 - Active
 4 - Maintaince
-5 - 
+5 - It's Over
 6 - Closed
-7 - 
 */
