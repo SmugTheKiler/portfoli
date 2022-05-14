@@ -83,7 +83,7 @@ export default {
       {
         name: "${Ella}'s Website'",
         description: "Find general info on ${Ella} on its website",
-        status: 1,
+        status: 6,
         to: "https://ellabot.xyz"
       },
       //{
@@ -95,4 +95,8 @@ export default {
       // },    
       //},
   ]
-};
+}; /*
+1 - new
+2 - coming soon
+3 - Active
+4 - Maintaince
