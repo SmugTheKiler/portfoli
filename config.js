@@ -41,13 +41,13 @@ export default {
     },
     skills: [
       {
-        name: "JavaScript",
-        percent: 85,
+        name: "NodeJS",
+        percent: 90,
         color: "#384d54"
       },
       {
-        name: "NodeJS",
-        percent: 90,
+        name: "JavaScript",
+        percent: 85,
         color: "#DDC123",
       },
       {
