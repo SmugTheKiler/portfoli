@@ -71,13 +71,13 @@ export default {
       {
         name: "${Ella}",
         description: "An awesome Discord bot with over 200 servers, and 180k+ users using it. It helps you with a lot of stuff like moderation, fun, utility, ect.",
-        status: 2,
+        status: 3,
         to: "https://discord.com/oauth2/authorize?client_id=743292394237329440&scope=bot&permissions=8"
       },
       {
         name: "Funy API",
         description: "A good API template for anyone to use. Has token Generation, registration, settings, multiple endpoints, and more.",
-        status: 2,
+        status: 4,
         to: "https://github.com/SmugTheKiler/funy-api"
       },
       {
